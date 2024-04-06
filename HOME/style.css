@@ -6,20 +6,10 @@
 
 .wrapper11 {
     background: linear-gradient(to bottom right,rgb(159, 198, 220), rgb(236, 217, 162));
-    padding-top: 2%;
     display:flex;
     flex-direction: column;
-    row-gap: 15px;
-    
 }
-.container1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 1px solid black;
-    border-radius: 25px;    
-    background: linear-gradient(to right,rgb(193, 157, 14) 5%, #0a2351 5%, #0a2351 95%, rgb(193, 157, 14) 95%); 
-}
+
 .logo1 img{
     border: 1px solid black;
     border-radius: 50%;
@@ -31,8 +21,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0% -0.6% 1%;
-    height:150px;
+    margin: 0% -0.6% 0%;
+    height:180px;
     padding: 20px;
 }
 
@@ -43,20 +33,27 @@
 .type{
     height: 50px;
 }
-.container3{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background: linear-gradient(to top, #141e30, #243b55);
-    
-    
+#getStart{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+
 }
 .container31{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
+    color: black;
     font-weight: bolder;
     padding: 2%;
 }
@@ -123,7 +120,8 @@
     transform:scale(1.2);
     box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
     transition: 1.5s;
-    background: linear-gradient(to bottom right,#778899,#578c8c);
+    /* background: linear-gradient(to bottom right,#778899,#578c8c); */
+    background: url('gif.gif');
     
 }
 .container7{
@@ -221,7 +219,7 @@
 }
 
 
-.btn{
+/* .btn{
     margin:12px;
     font-size: 40px;
     padding:2px;
@@ -229,7 +227,7 @@
     background: none;
     color: aliceblue !important;
     font-weight: bolder !important;
-}
+} */
 .autoType{
     text-align: center;
     font-weight: bolder;
