@@ -3,9 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.contains{
+    width: 150vw;
     height: 100vh;
     position: relative;
+    /* background-color: rgb(247, 217, 181); */
+    background: url('backg.jpg');
+    background-size: cover;
+
 }
 .box1{
     position: absolute;
@@ -16,56 +22,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     scale: 1;
+    background-color: rgba(143, 161, 172,0.9);
+    
+    
     
 }
 input,select {
-    border: 1px solid grey;
     padding: 10px; 
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    box-sizing: border-box;
-    border-radius: 12px;
-    background-color: #f9f9f9;
-    transition: border-color 0.3s ease;
-    width: 80%; 
-    margin-bottom: 10px; 
 }
 input[type="radio"] {
     margin: 0 5px; 
-    display: inline-block; 
-    vertical-align: middle; 
 }
 label {
-    display: inline-block;
     margin-right: 20px; 
-    white-space: nowrap; 
-}
-button {
-    padding: 10px 20px; 
-    margin: 5px; 
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #007bff; 
-    color: white; 
 }
 .box2{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    border: 1px solid black;
-    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(76, 176, 212, 0.866);
+    padding: 50px;
     scale: 0;
+    font-weight: bold;
+    background-color:rgba(255,255,255,0.5);
 
+}
+.box21{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 
@@ -85,10 +77,13 @@ button:hover {
     gap: 1rem;
 }
 
-.box31,.box32{
+.box31{
     display: flex;
-    padding: 20px;
 
+}
+.box32{
+    display: flex;
+    gap: 1rem;
 }
 .box311,.box312{
     display: flex;
