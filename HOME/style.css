@@ -70,7 +70,7 @@
     padding: 2%;
 }
 
-.mybtn {
+.container4 .mybtn {
     background: linear-gradient(to top, #141e30, #243b55);
     border: 1px solid transparent;
     border-radius: .75rem;
@@ -126,7 +126,7 @@
     transform:scale(1.2);
     box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
     transition: 1.5s;
-    /* background: linear-gradient(to bottom right,#778899,#578c8c); */
+    background: #6b816c;
     
 }
 .container7{
