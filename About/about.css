@@ -5,7 +5,7 @@
 }
 
 .wrapper11 {
-    background: linear-gradient(to bottom right,rgb(159, 198, 220), rgb(236, 217, 162));
+    background-color: #A0C9C5;
     display:flex;
     flex-direction: column;
 }
@@ -44,29 +44,21 @@
     color: #141e30;
 }
 .jumbotron{
+    background-color:#4A9088;
+}
+.left,.right{
     display: flex;
     justify-content: center ;
     padding: 20px;
 }
-.container3{
-    padding: 20px;
-}
-.picture{
+.pic{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
 }
 .box1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px;
 }
-.box11{
-    color: azure;
-    padding: 10px;
-    
+.box1 img{
+    border-radius: 10px;
 }
 .contact{
     display: flex;
@@ -79,6 +71,9 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+.contact1 img{
+    border-radius: 18px;
 }
 
 .container8{
