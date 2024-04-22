@@ -1,0 +1,76 @@
+
+body{
+    font-family: 'Jost', sans-serif;
+    background:url('gif.gif');
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+.box{
+    height: 100vh;
+    padding: 50px 40px 0 40px;
+    font-size:larger;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(222, 19, 19, 0.36);
+    width: 30%;
+    height:25%;
+    border-radius: 10px;
+    margin: 3% auto;
+    background-color: rgba(1, 18, 50, 0.6);
+    
+   
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+.otp{
+  display: flex;
+  gap: 1rem;
+  box-sizing: border-box;
+  
+}
+.formgrp{
+    background: #e0dede;
+    background: #e0dede;
+	justify-content: center;
+	display: flex;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+    
+
+}
+
+h2{
+  color: #fff;
+	font-size: clamp(1rem, 4vw, 3rem);
+	justify-content: center;
+  font-family: 'Jost', sans-serif;
+  display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: #374151;
+}
+
+.button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+#link{
+    margin-left: 8% auto;
+}
+
+
+
